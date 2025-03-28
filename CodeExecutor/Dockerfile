@@ -16,4 +16,4 @@ COPY app/ ./app/
 EXPOSE 1234
 
 # Run FastAPI server
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "1234"]
+CMD ["uvicorn", "app.service:app", "--host", "0.0.0.0", "--port", "1234"]
